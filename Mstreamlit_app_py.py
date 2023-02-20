@@ -1,3 +1,6 @@
 import streamlit
 streamlit.title('My parents newly diner')
-print("Hello, World!")
+streamlit.header('Breakfast')
+streamlit.header('Oat Meal')
+streamlit.header('Cereals')
+streamlit.header('coockies')
