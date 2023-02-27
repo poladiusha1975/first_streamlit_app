@@ -1,4 +1,5 @@
 import streamlit
+import Pandas
 
 streamlit.title('My parents newly diner')
 
@@ -37,6 +38,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 streamlit.stop()
 import snowflake.connector
+import requests
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
